@@ -58,8 +58,23 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\helper_classes.css" />
+    <Content Include="css\Kaushan-Script-Source-Sans-Pro.css" />
+    <Content Include="css\online_test.css" />
+    <Content Include="css\Open-Sans.css" />
+    <Content Include="css\Source-Sans-Pro.css" />
+    <Content Include="css\testpot.css" />
     <Content Include="index.aspx" />
     <Content Include="index.html" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-2.1.4.min.js" />
+    <Content Include="js\jquery.scrollTo.min.js" />
+    <Content Include="js\online_test.js" />
+    <Content Include="js\prj_timer.js" />
+    <Content Include="js\slimscroll.js" />
+    <Content Include="js\visibility.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +88,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -81,10 +99,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\" />
-    <Folder Include="fonts\" />
     <Folder Include="images\" />
-    <Folder Include="js\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
