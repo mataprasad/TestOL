@@ -65,9 +65,8 @@
     <Content Include="css\online_test.css" />
     <Content Include="css\Open-Sans.css" />
     <Content Include="css\Source-Sans-Pro.css" />
-    <Content Include="css\testpot.css" />
+    <Content Include="css\app.css" />
     <Content Include="index.aspx" />
-    <Content Include="index.html" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-2.1.4.min.js" />
     <Content Include="js\jquery.scrollTo.min.js" />

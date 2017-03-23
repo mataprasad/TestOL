@@ -8,8 +8,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="shortcut icon" href="/static/testpot/images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/static/testpot/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- Disable Cache -->
     <meta http-equiv="cache-control" content="max-age=0" />
     <meta http-equiv="cache-control" content="no-cache" />
@@ -25,7 +25,6 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
-    <!-- <link rel="stylesheet" href="/static/testpot/css/bootstrap3/dist/css/bootstrap-theme.min.css"> -->
 
     <link href="css/font-awesome.min.css " rel="stylesheet" type="text/css" />
     <link href='css/Kaushan-Script-Source-Sans-Pro.css' rel='stylesheet' type='text/css'>
@@ -34,7 +33,7 @@
 
     <link rel="stylesheet" href="css/helper_classes.css?v=10">
 
-    <link rel="stylesheet" href="css/testpot.css?v=10">
+    <link rel="stylesheet" href="css/app.css?v=10">
     <link rel="stylesheet" href="css/online_test.css?v=10">
 </head>
 
@@ -51,7 +50,7 @@
             <span class="icon-bar"></span>
           </button>
                 <a class="navbar-brand" href="/">
-            TestPot.com
+            Online Test
           </a>
 
             </div>
@@ -62,7 +61,7 @@
 
 
                     <li>
-                        <a href="" data-toggle="modal" data-target="#test_instructions_modal">Instructions</a>
+                        <a href="javascript:void(0);" data-toggle="modal" data-target="#test_instructions_modal">Instructions</a>
                     </li>
 
                 </ul>
